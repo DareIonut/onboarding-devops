@@ -3,15 +3,17 @@
 ## Linux
 
 ## Pipelines
-- Show how a pipeline works
-- Refactor instance continuous deployments
+- Builder CI/CD.
+- Continuous Deployment CI/CD.
+- Test Project CI.
+- Overnight Tests. (Should be fixed)
 
 ## Deployments
-- Docker (commands, examples)
-- Kubernetes (commands, examples)
-- How to deploy an NC-Builder instance (+ documentation server on Strato)
+- Docker (commands, examples) -> On-premise
+- Kubernetes (commands, examples) -> On Cloud
+- How to deploy an NC-Builder instance (Documentation Server on Strato +  Google Console AUTH)
 
-## Database Operations
+## Database Operations - We should think at automate some operations
 - DB import, export
   - Existing scripts (DB import, DB tables optimization, DB dump)
 
@@ -20,10 +22,10 @@
 - How to expand storage for a deployment (eg. what happens when a builder deployment runs out of storage)
 
 ## AWS
-- Local setup (AWS login, K9s)
+- Local setup (AWS login, K9s) [x]
 - Commonly-used services
   - EC2 -> Virtual servers -> overview of a server with related resources (volumes, load balancers, etc.)
-  - EKS -> Add a new node group, add a node to an existing group
+  - EKS -> Add a new node group, add a node to an existing group (Should see the SPOT instances + Add a new mysql node)
   - Route53 -> Quick overview
   - S3 -> Quick overview
 
